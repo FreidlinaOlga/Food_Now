@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.foodnow.tests.AddProductPositiveTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-25T17:30:17" hostname="DELLSMALL" time="0.689">
+  <properties/>
+  <testcase name="addProductTest" classname="com.foodnow.tests.AddProductPositiveTests" time="0.689"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -18,8 +18,13 @@ public class CartAndProductHelper extends BaseHelper{
         click(By.xpath("//nav[1]/a[2]/img"));
     }
 
-    public void clickOnDeleteIcon() {
-        click(By.cssSelector("div:nth-of-type(4) button > svg > path"));
+    public void waitAndClickOnDeleteIcon() {
+        clickWithWait(By.cssSelector("div:nth-of-type(4) button > svg > path"));
+
+    }
+    public void waitAndClickOnAddProductButton() {
+        clickWithWait(By.cssSelector("#root .css-1urp7g4 button img"));
+
     }
 
     public void clickOnGoShoppingButton() {
@@ -42,6 +47,7 @@ public class CartAndProductHelper extends BaseHelper{
         System.out.println("*******************************************************");
         return cssValue;
     }
+
 
 }
 

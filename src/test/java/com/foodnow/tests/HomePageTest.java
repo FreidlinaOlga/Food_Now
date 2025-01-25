@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class HomePageTest extends TestBase {
 
     @BeforeMethod
-    public void preconditions() {
+    public void ensurePreconditions() {
         if(!app.getHome().isHomeComponentPresent()){
             app.getHome().clickOnHomePageLogo();
         }

@@ -9,32 +9,18 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-public class RegistrationTests extends TestBase {
+public class RegistrationNegativeTests extends TestBase {
 
     @BeforeMethod
-    public void preconditions() {
-        app.getUser().clickOnUserIcon();
-        app.getUser().clickOnRegisterLink();
+    public void ensurePrecondition() {
+        if (app.getUser().isLogOutButtonPresent()) {
+            app.getUser().clickLogOutButton();
+        }
     }
-
-    @Test(enabled = false)
-    public void registrationPositiveTest() {
-
-        app.getUser().fillLoginRegisterForm(new User()
-                .setFirstName("Helena")
-                .setLastName("Carter")
-                .setEmail("helcar@food.com")
-                .setPassword("123456")
-                .setPhone("232323"));
-        app.getUser().clickOnRegistrationButton();
-
-        Assert.assertTrue(app.getUser().isLogOutButtonPresent());
-
-    }
-
 
     @Test
     public void existedUserRegistrationNegativeTest() {
+
 
         app.getUser().fillLoginRegisterForm(new User()
                 .setFirstName("Helena")

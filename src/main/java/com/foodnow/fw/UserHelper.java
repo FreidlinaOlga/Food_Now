@@ -25,22 +25,6 @@ public class UserHelper extends BaseHelper{
         click(By.xpath("//*[@id=\"root\"]/div/div/div[1]/nav/a[1]/img"));
     }
 
-    public void enterPassword(String password) {
-        type(By.xpath("//input[@id='password-id']"), password);
-    }
-
-    public void enterEmail(String email) {
-        type(By.xpath("//input[@id='email-id']"), email);
-    }
-
-    public void fillLastNameField(String lastName) {
-        type(By.xpath("//input[@id='lastName-id']"), lastName);
-    }
-
-    public void fillFirstNameField(String firstName) {
-        type(By.xpath("//input[@id='firstName-id']"), firstName);
-    }
-
     public void clickOnRegistrationButton() {
         click(By.xpath("//button[.='Registration']"));
     }
@@ -59,5 +43,13 @@ public class UserHelper extends BaseHelper{
 
     public void clickOnLoginButton() {
         click(By.xpath("//button[.='Login']"));
+    }
+
+    public boolean isLoginLinkPresent() {
+        return isElementPresent(By.cssSelector("[href='#/login']"));
+    }
+
+    public void clickLogOutButton() {
+        click(By.xpath("//button[.='Log out']"));
     }
 }

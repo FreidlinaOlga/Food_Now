@@ -2,6 +2,10 @@ package com.foodnow.fw;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class BaseHelper {
     WebDriver driver;
@@ -11,7 +15,7 @@ public class BaseHelper {
     }
 
     public void type(By locator, String text) {
-        if(text != null) {
+        if (text != null) {
 
             click(locator);
             driver.findElement(locator).clear();
@@ -33,6 +37,11 @@ public class BaseHelper {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+    public void clickWithWait(By locator) {
+        new WebDriverWait(driver, Duration.ofSeconds(20))
+                .until(ExpectedConditions.elementToBeClickable(locator)).click();
+
     }
 
 }

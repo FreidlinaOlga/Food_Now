@@ -15,4 +15,7 @@ public class HomePageHelper extends BaseHelper {
     public void clickOnHomePageLogo() {
         click(By.xpath("//img[@class='css-rbpvgo']"));
     }
+    public void waitAndClickHomePageLogo() {
+        clickWithWait(By.xpath("//img[@class='css-rbpvgo']"));
+    }
 }
