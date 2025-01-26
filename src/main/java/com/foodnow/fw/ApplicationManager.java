@@ -25,7 +25,7 @@ public class ApplicationManager {
 
             if(browser.equalsIgnoreCase("chrome")) {
                 driver = new ChromeDriver();
-//                logger.info("Test start in Chrome browser");
+  //              logger.info("Test start in Chrome browser");
             }else if(browser.equalsIgnoreCase("firefox")) {
                 driver = new FirefoxDriver();
 //                logger.info("Test start in Firefox browser");
