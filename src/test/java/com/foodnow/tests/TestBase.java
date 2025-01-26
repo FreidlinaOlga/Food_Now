@@ -27,7 +27,7 @@ public class TestBase {
 
     }
 
-    @AfterSuite(enabled = false)
+    @AfterSuite
     public void tearDown() {
         app.stop();
     }
