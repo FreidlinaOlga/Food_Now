@@ -16,6 +16,8 @@ public class RegistrationNegativeTests extends TestBase {
         if (app.getUser().isLogOutButtonPresent()) {
             app.getUser().clickLogOutButton();
         }
+        app.getUser().clickOnUserIcon();
+        app.getUser().clickOnRegisterLink();
     }
 
     @Test
@@ -36,6 +38,7 @@ public class RegistrationNegativeTests extends TestBase {
 
     @Test
     public void emptyEmailFieldRegistrationNegativeTest() {
+
         app.getUser().fillLoginRegisterForm(new User()
                 .setFirstName("Helena")
                 .setLastName("Carter")
@@ -49,6 +52,7 @@ public class RegistrationNegativeTests extends TestBase {
 
     @Test
     public void numbersInEmailFieldRegistrationNegativeTest() {
+
         app.getUser().fillLoginRegisterForm(new User()
                 .setFirstName("Helena")
                 .setLastName("Carter")

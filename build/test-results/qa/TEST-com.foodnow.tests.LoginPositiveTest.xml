@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.foodnow.tests.LoginPositiveTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-25T17:31:11" hostname="DELLSMALL" time="0.85">
-  <properties/>
-  <testcase name="loginPositiveTest" classname="com.foodnow.tests.LoginPositiveTest" time="0.85"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

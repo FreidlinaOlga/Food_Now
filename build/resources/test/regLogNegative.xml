@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Auth" verbose="1">
+    <test name="Auth">
+        <classes>
+            <class name="com.foodnow.tests.RegistrationNegativeTests"/>
+            <class name="com.foodnow.tests.LoginNegativeTests"/>
+
+        </classes>
+    </test>
+</suite>

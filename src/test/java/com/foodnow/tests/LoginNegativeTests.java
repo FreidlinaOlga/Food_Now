@@ -13,13 +13,14 @@ public class LoginNegativeTests extends TestBase {
         if (app.getUser().isLogOutButtonPresent()) {
             app.getUser().clickLogOutButton();
         }
+        app.getUser().clickOnUserIcon();
+        app.getUser().clickOnLoginLink();
     }
 
 
     @Test
     public void wrongEmailLoginNegativeTest() {
-        app.getUser().clickOnUserIcon();
-        app.getUser().clickOnLoginLink();
+
         app.getUser().fillLoginRegisterForm(new User().setEmail("tl49@gmx.c").setPassword("TestProba1$"));
         app.getUser().clickOnLoginButton();
 
@@ -29,8 +30,7 @@ public class LoginNegativeTests extends TestBase {
 
     @Test
     public void wrongPasswordLoginNegativeTest() {
-        app.getUser().clickOnUserIcon();
-        app.getUser().clickOnLoginLink();
+
         app.getUser().fillLoginRegisterForm(new User().setEmail("tl49@gmx.com").setPassword("TestProba1"));
         app.getUser().clickOnLoginButton();
 
@@ -38,19 +38,19 @@ public class LoginNegativeTests extends TestBase {
     }
     @Test
     public void emptyEmailFieldLoginNegativeTest() {
-        app.getUser().clickOnUserIcon();
-        app.getUser().clickOnLoginLink();
+
         app.getUser().fillLoginRegisterForm(new User().setPassword("TestProba1$"));
         app.getUser().clickOnLoginButton();
+
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]")));
     }
 
     @Test
     public void emptyPasswordFieldLoginNegativeTest() {
-        app.getUser().clickOnUserIcon();
-        app.getUser().clickOnLoginLink();
+
         app.getUser().fillLoginRegisterForm(new User().setEmail("tl49@gmx.com"));
         app.getUser().clickOnLoginButton();
+
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]")));
     }
 }

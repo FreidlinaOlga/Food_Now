@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AD" verbose="1">
+    <test name="AD">
+        <classes>
+            <class name="com.foodnow.tests.AddProductPositiveTests"/>
+            <class name="com.foodnow.tests.DeleteProductPositiveTest"/>
+
+
+        </classes>
+    </test>
+</suite>

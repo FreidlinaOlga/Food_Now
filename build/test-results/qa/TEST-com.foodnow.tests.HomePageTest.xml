@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.foodnow.tests.HomePageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-25T17:30:18" hostname="DELLSMALL" time="0.012">
-  <properties/>
-  <testcase name="homePageTest" classname="com.foodnow.tests.HomePageTest" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

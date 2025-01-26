@@ -14,17 +14,17 @@ public class DeleteProductPositiveTest extends TestBase {
         app.getUser().clickOnLoginLink();
         app.getUser().fillLoginRegisterForm(new User().setEmail("helcar@food.com").setPassword("123456"));
         app.getUser().clickOnLoginButton();
-        app.getHome().clickOnHomePageLogo();
+        app.getHome().waitAndClickHomePageLogo();
         app.getCart().clickOnAddProductButton();
     }
 
 
-    @Test(enabled = false)
+    @Test()
     public void deleteProductTest() {
 
         app.getCart().clickOnCartIcon();
         app.getCart().waitAndClickOnDeleteIcon();
-
+        app.getHome().pause(6000);
         Assert.assertTrue(app.getHome().isElementPresent(By.xpath("//button[contains(text(), \"Go shopping\")]")));
     }
 
