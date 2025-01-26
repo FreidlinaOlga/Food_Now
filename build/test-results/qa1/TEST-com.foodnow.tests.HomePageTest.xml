@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.foodnow.tests.HomePageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-26T18:46:11" hostname="DELLSMALL" time="0.018">
+  <properties/>
+  <testcase name="homePageTest" classname="com.foodnow.tests.HomePageTest" time="0.018"/>
+  <system-out><![CDATA[19:46:11.500 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test homePageTest[]
+19:46:11.613 [Test worker] INFO  com.foodnow.tests.TestBase -- PASSED: homePageTest
+19:46:11.613 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+19:46:11.613 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
