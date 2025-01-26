@@ -29,8 +29,7 @@ public class ProductViewingTests extends TestBase {
         app.getUser().clickOnLoginLink();
         app.getUser().fillLoginRegisterForm(new User().setEmail("helcar@food.com").setPassword("123456"));
         app.getUser().clickOnLoginButton();
-        app.getHome().pause(6000);
-        app.getHome().waitAndClickHomePageLogo();
+      app.getHome().waitAndClickHomePageLogo();
         app.getHome().pause(6000);
         Assert.assertTrue(app.getHome().isElementPresent(By.xpath("//button[@aria-label='Go to page 2']")));
     }
