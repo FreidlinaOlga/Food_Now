@@ -29,9 +29,6 @@ public class UserHelper extends BaseHelper{
         click(By.xpath("//button[.='Registration']"));
     }
 
-    public void enterPhoneNumber(String phone) {
-        type(By.xpath("//input[@id='phoneNumber-id']"), phone);
-    }
 
     public boolean isLogOutButtonPresent() {
         return isElementPresent(By.xpath("//button[.='Log out']"));
