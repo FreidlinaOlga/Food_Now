@@ -5,6 +5,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.foodnow.data.UserData.EMAIL;
+import static com.foodnow.data.UserData.PASSWORD;
+
 public class LoginPositiveTest extends TestBase{
 
     @BeforeMethod
@@ -18,7 +21,7 @@ public class LoginPositiveTest extends TestBase{
 
         app.getUser().clickOnUserIcon();
         app.getUser().clickOnLoginLink();
-        app.getUser().fillLoginRegisterForm(new User().setEmail("tl49@gmx.com").setPassword("TestProba1$"));
+        app.getUser().fillLoginRegisterForm(new User().setEmail(EMAIL).setPassword(PASSWORD));
         app.getUser().clickOnLoginButton();
 
         Assert.assertTrue(app.getUser().isLogOutButtonPresent());

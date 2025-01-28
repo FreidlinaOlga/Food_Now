@@ -8,6 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.foodnow.data.RegistrationData.*;
+
 
 public class RegistrationNegativeTests extends TestBase {
 
@@ -25,11 +27,12 @@ public class RegistrationNegativeTests extends TestBase {
 
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setFirstName("Helena")
-                .setLastName("Carter")
-                .setEmail("helcar@food.com")
-                .setPassword("123456")
-                .setPhone("232323"));
+                .setFirstName(NAME)
+                .setLastName(LAST_NAME)
+                .setEmail(EMAIL)
+                .setPassword(PASSWORD)
+                .setPhone(PHONE));
+
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[contains(text(),'Registration failed. Request failed with status co')]")));
@@ -40,10 +43,12 @@ public class RegistrationNegativeTests extends TestBase {
     public void emptyEmailFieldRegistrationNegativeTest() {
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setFirstName("Helena")
-                .setLastName("Carter")
-                .setPassword("123456")
-                .setPhone("232323"));
+                .setFirstName(NAME)
+                .setLastName(LAST_NAME)
+                .setPassword(PASSWORD)
+                .setPhone(PHONE));
+
+
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[text()='Email is required']")));
@@ -54,11 +59,11 @@ public class RegistrationNegativeTests extends TestBase {
     public void numbersInEmailFieldRegistrationNegativeTest() {
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setFirstName("Helena")
-                .setLastName("Carter")
+                .setFirstName(NAME)
+                .setLastName(LAST_NAME)
                 .setEmail("1234567")
-                .setPassword("123456")
-                .setPhone("232323"));
+                .setPassword(PASSWORD)
+                .setPhone(PHONE));
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[text()='Email is not valid']")));
@@ -66,14 +71,14 @@ public class RegistrationNegativeTests extends TestBase {
     }
 
     @Test
-    public void invalidNameInFirstNameFieldRegistrationNegativeTest() {
+    public void invalidFirstNameRegistrationNegativeTest() {
 
         app.getUser().fillLoginRegisterForm(new User()
                 .setFirstName("SQL")
-                .setLastName("Carter")
-                .setEmail("helcar@food.com")
-                .setPassword("123456")
-                .setPhone("232323"));
+                .setLastName(LAST_NAME)
+                .setEmail(EMAIL)
+                .setPassword(PASSWORD)
+                .setPhone(PHONE));
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[contains(text(), 'Registration failed')]")));
@@ -83,10 +88,10 @@ public class RegistrationNegativeTests extends TestBase {
     public void emptyFirstNameFieldRegistrationNegativeTest() {
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setLastName("Carter")
-                .setEmail("helcar@food.com")
-                .setPassword("123456")
-                .setPhone("232323"));
+                .setLastName(LAST_NAME)
+                .setEmail(EMAIL)
+                .setPassword(PASSWORD)
+                .setPhone(PHONE));
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[text()='First name field is required']")));
@@ -98,10 +103,10 @@ public class RegistrationNegativeTests extends TestBase {
 
         app.getUser().fillLoginRegisterForm(new User()
                 .setFirstName("qwertzuiopüasdfghjklöä")
-                .setLastName("Carter")
-                .setEmail("helcar@food.com")
-                .setPassword("123456")
-                .setPhone("232323"));
+                .setLastName(LAST_NAME)
+                .setEmail(EMAIL)
+                .setPassword(PASSWORD)
+                .setPhone(PHONE));
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]")));
@@ -111,11 +116,11 @@ public class RegistrationNegativeTests extends TestBase {
     public void longLastNameRegistrationNegativeTest() {
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setFirstName("Henry")
+                .setFirstName(NAME)
                 .setLastName("Cartermnbvcxyölkjhgfds")
-                .setEmail("helcar@food.com")
-                .setPassword("123456")
-                .setPhone("232323"));
+                .setEmail(EMAIL)
+                .setPassword(PASSWORD)
+                .setPhone(PHONE));
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]")));
@@ -125,11 +130,11 @@ public class RegistrationNegativeTests extends TestBase {
     public void invalidPasswordRegistrationNegativeTest() {
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setFirstName("Henry")
-                .setLastName("Carter")
-                .setEmail("helcar@food.com")
+                .setFirstName(NAME)
+                .setLastName(LAST_NAME)
+                .setEmail(EMAIL)
                 .setPassword("123")
-                .setPhone("232323"));
+                .setPhone(PHONE));
         app.getUser().clickOnRegistrationButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]")));
@@ -139,10 +144,10 @@ public class RegistrationNegativeTests extends TestBase {
     public void invalidPhoneRegistrationNegativeTest() {
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setFirstName("Henry")
-                .setLastName("Carter")
-                .setEmail("helcar@food.com")
-                .setPassword("123456")
+                .setFirstName(NAME)
+                .setLastName(LAST_NAME)
+                .setEmail(EMAIL)
+                .setPassword(PASSWORD)
                 .setPhone("2323"));
         app.getUser().clickOnRegistrationButton();
 

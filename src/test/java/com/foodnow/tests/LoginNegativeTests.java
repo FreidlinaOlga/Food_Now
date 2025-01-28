@@ -6,6 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.foodnow.data.UserData.EMAIL;
+import static com.foodnow.data.UserData.PASSWORD;
+
 public class LoginNegativeTests extends TestBase {
 
     @BeforeMethod
@@ -37,7 +40,7 @@ public class LoginNegativeTests extends TestBase {
         app.getUser()
                 .fillLoginRegisterForm(new User()
                         .setEmail("tl49@gmx.com")
-                        .setPassword("TestProba1"));
+                        .setPassword(PASSWORD));
         app.getUser().clickOnLoginButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[text()='Login or email is invalid. Try again.']")));
@@ -47,7 +50,7 @@ public class LoginNegativeTests extends TestBase {
 
         app.getUser()
                 .fillLoginRegisterForm(new User()
-                        .setPassword("TestProba1$"));
+                        .setPassword(PASSWORD));
         app.getUser().clickOnLoginButton();
 
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]")));
@@ -58,7 +61,7 @@ public class LoginNegativeTests extends TestBase {
 
         app.getUser()
                 .fillLoginRegisterForm(new User()
-                        .setEmail("tl49@gmx.com"));
+                        .setEmail(EMAIL));
         app.getUser().clickOnLoginButton();
 
         Assert.assertTrue(app.getUser()

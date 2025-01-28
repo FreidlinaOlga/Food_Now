@@ -49,4 +49,7 @@ public class UserHelper extends BaseHelper{
     public void clickLogOutButton() {
         click(By.xpath("//button[.='Log out']"));
     }
+
+    public boolean isUserRegistered() { return isElementPresent(By.cssSelector("img[src*=\"profile-yJ8L7J31\"]"));
+    }
 }

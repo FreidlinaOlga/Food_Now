@@ -49,5 +49,8 @@ public class CartAndProductHelper extends BaseHelper{
     }
 
 
+    public void waitAndClickOnCartIcon() {
+        clickWithWait(By.xpath("//nav[1]/a[2]/img"));
+    }
 }
 

@@ -6,16 +6,19 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.foodnow.data.UserData.EMAIL;
+import static com.foodnow.data.UserData.PASSWORD;
+
 public class AddProductPositiveTests extends TestBase {
 
     @BeforeMethod
     public void precondition() {
-//        if (app.getUser().isLogOutButtonPresent()) {
-//            app.getUser().clickLogOutButton();
-//        }
+        if (app.getUser().isLogOutButtonPresent()) {
+          app.getUser().clickLogOutButton();
+       }
         app.getUser().clickOnUserIcon();
         app.getUser().clickOnLoginLink();
-        app.getUser().fillLoginRegisterForm(new User().setEmail("helcar@food.com").setPassword("123456"));
+        app.getUser().fillLoginRegisterForm(new User().setEmail(EMAIL).setPassword(PASSWORD));
         app.getUser().clickOnLoginButton();
     }
 

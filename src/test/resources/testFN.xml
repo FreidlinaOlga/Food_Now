@@ -4,7 +4,7 @@
     <test name="Home1">
         <classes>
             <class name="com.foodnow.tests.HomePageTest"/>
-            <class name="com.foodnow.tests.RegistrationPositiveTest"/>
+            <class name="com.foodnow.tests.RegistrationPositiveTests"/>
             <class name="com.foodnow.tests.LoginPositiveTest"/>
             <class name="com.foodnow.tests.ProductViewingTests"/>
         </classes>

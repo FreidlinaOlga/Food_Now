@@ -6,6 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.foodnow.data.UserData.EMAIL;
+import static com.foodnow.data.UserData.PASSWORD;
+
 
 public class ProductViewingTests extends TestBase {
 
@@ -27,7 +30,7 @@ public class ProductViewingTests extends TestBase {
     public void productViewingByRegisteredUserTest() {
         app.getUser().clickOnUserIcon();
         app.getUser().clickOnLoginLink();
-        app.getUser().fillLoginRegisterForm(new User().setEmail("helcar@food.com").setPassword("123456"));
+        app.getUser().fillLoginRegisterForm(new User().setEmail(EMAIL).setPassword(PASSWORD));
         app.getUser().clickOnLoginButton();
         app.getHome().pause(6000);
         app.getHome().waitAndClickHomePageLogo();
@@ -48,10 +51,10 @@ public class ProductViewingTests extends TestBase {
     public void categoryViewingByRegisteredUserTest() {
         app.getUser().clickOnUserIcon();
         app.getUser().clickOnLoginLink();
-        app.getUser().fillLoginRegisterForm(new User().setEmail("helcar@food.com").setPassword("123456"));
+        app.getUser().fillLoginRegisterForm(new User().setEmail(EMAIL).setPassword(PASSWORD));
         app.getUser().clickOnLoginButton();
-      app.getHome().pause(1000);
-       app.getHome().waitAndClickHomePageLogo();
+        app.getHome().pause(1000);
+        app.getHome().waitAndClickHomePageLogo();
         app.getHome().pause(2000);
         app.getCart().selectCategory();
         app.getHome().pause(1000);
