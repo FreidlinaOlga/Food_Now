@@ -18,7 +18,7 @@ public class RegisterNewUserWithCsvPositiveTests extends TestBase{
     }
 
     @Test(dataProvider = "registerNewUserPositiveWithCsv", dataProviderClass = DataProviders.class)
-    public void registerNewUserInvalidEmailNegativeWithCsvFileTest(User user) {
+    public void registerNewUserPositiveWithCsvFileTest(User user) {
 
         app.getUser().fillLoginRegisterForm(user);
         app.getUser().clickOnRegistrationButton();

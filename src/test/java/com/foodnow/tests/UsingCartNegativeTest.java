@@ -39,7 +39,7 @@ public class UsingCartNegativeTest extends TestBase{
     app.getUser().fillLoginRegisterForm(new User().setEmail(EMAIL).setPassword(PASSWORD));
     app.getUser().clickOnLoginButton();
     app.getCart().waitAndClickOnCartIcon();
-
+app.getHome().pause(6000);
     Assert.assertTrue(app.getHome().isElementPresent(By.xpath("//button[text()='Go shopping']")));
 
 }

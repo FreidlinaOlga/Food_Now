@@ -34,6 +34,7 @@ task qa1(type: Test) {
         def suite3 = project.hasProperty("suite3")
         def suite4 = project.hasProperty("suite4")
         def suite5 = project.hasProperty("suite5")
+        def suite6 = project.hasProperty("suite6")
 
         if (suite1) {
             suites 'src/test/resources/testFN.xml'
@@ -45,7 +46,7 @@ task qa1(type: Test) {
             suites 'src/test/resources/addDelete.xml'
         } else if (suite5) {
             suites 'src/test/resources/negativeRegisterCsv.xml'
-        } else if (suite5) {
+        } else if (suite6) {
             suites 'src/test/resources/positiveRegisterCsv.xml'
         }
         if (project.hasProperty('browser')) {

@@ -15,15 +15,14 @@ public class RegistrationPositiveTests extends TestBase {
         if (app.getUser().isLogOutButtonPresent()) {
             app.getUser().clickLogOutButton();
         }
-        app.getUser().clickOnUserIcon();
-        app.getUser().clickOnRegisterLink();
 
     }
 
 
     @Test(enabled = false)
     public void registrationPositiveTest() {
-
+        app.getUser().clickOnUserIcon();
+        app.getUser().clickOnRegisterLink();
         app.getUser().fillLoginRegisterForm(new User()
                 .setFirstName(NAME)
                 .setLastName(LAST_NAME)
@@ -36,16 +35,5 @@ public class RegistrationPositiveTests extends TestBase {
 
     }
 
-
-    @Test(dataProvider = "registerNewUserWithCsv", dataProviderClass = DataProviders.class)
-    public void registerNewUserPositiveFromDataProviderWithCsvFileTest(User user) {
-
-        app.getUser().clickOnRegisterLink();
-        app.getUser().fillLoginRegisterForm(user);
-        app.getUser().clickOnRegistrationButton();
-
-        Assert.assertTrue(app.getUser().isUserRegistered());
-
-    }
 
 }
