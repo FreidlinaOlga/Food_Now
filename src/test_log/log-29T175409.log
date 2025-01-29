@@ -1,0 +1,7 @@
+17:54:10.922 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+17:54:15.292 [main] INFO  com.foodnow.tests.TestBase -- Start test productViewingByRegisteredUserTest[]
+17:54:33.278 [main] INFO  com.foodnow.tests.TestBase -- PASSED: productViewingByRegisteredUserTest
+17:54:33.287 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:54:33.287 [main] INFO  com.foodnow.tests.TestBase -- --------------

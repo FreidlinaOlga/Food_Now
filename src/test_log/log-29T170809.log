@@ -1,0 +1,7 @@
+17:08:10.420 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+17:08:14.573 [main] INFO  com.foodnow.tests.TestBase -- Start test productViewingByRegisteredUserTest[]
+17:08:41.820 [main] ERROR com.foodnow.tests.TestBase -- FAILED: productViewingByRegisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738166921790png
+17:08:41.820 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:08:41.820 [main] INFO  com.foodnow.tests.TestBase -- --------------

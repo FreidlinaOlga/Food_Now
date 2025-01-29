@@ -1,0 +1,8 @@
+18:35:06.904 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\QA\Food_Now\src\test\resources\addDelete.xml
+
+18:35:09.836 [main] INFO  com.foodnow.tests.TestBase -- Start test addProductTest[]
+18:35:31.014 [main] ERROR com.foodnow.tests.TestBase -- FAILED: addProductTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738172130984png
+18:35:31.014 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+18:35:31.014 [main] INFO  com.foodnow.tests.TestBase -- --------------
+18:35:31.014 [main] INFO  com.foodnow.tests.TestBase -- Start test deleteProductTest[]
