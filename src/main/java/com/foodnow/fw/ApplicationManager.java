@@ -25,13 +25,13 @@ public class ApplicationManager {
 
             if(browser.equalsIgnoreCase("chrome")) {
                 driver = new ChromeDriver();
-  //              logger.info("Test start in Chrome browser");
+
             }else if(browser.equalsIgnoreCase("firefox")) {
                 driver = new FirefoxDriver();
-//                logger.info("Test start in Firefox browser");
+
             }else if(browser.equalsIgnoreCase("edge")) {
                 driver = new EdgeDriver();
-//                logger.info("Test start in Edge browser");
+;
           }
 
         driver.get("https://oyster-app-hck73.ondigitalocean.app/#/");
