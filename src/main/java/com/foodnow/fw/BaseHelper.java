@@ -44,8 +44,10 @@ public class BaseHelper {
         }
     }
     public void clickWithWait(By locator) {
+
         new WebDriverWait(driver, Duration.ofSeconds(30))
                 .until(ExpectedConditions.elementToBeClickable(locator)).click();
+
 
     }
 
