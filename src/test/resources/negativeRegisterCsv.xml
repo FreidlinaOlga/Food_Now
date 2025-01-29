@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NegCSV" verbose="1">
+    <test name="NegCSV">
+        <classes>
+            <class name="com.foodnow.tests.RegisterNewUserWithCsvNegativeTests"/>
+
+        </classes>
+    </test>
+</suite>

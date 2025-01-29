@@ -1,0 +1,7 @@
+21:46:35.378 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:46:39.671 [main] INFO  com.foodnow.tests.TestBase -- Start test usingEmptyCartByLoggedUserTest[]
+21:46:55.970 [main] INFO  com.foodnow.tests.TestBase -- PASSED: usingEmptyCartByLoggedUserTest
+21:46:55.970 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+21:46:55.971 [main] INFO  com.foodnow.tests.TestBase -- --------------

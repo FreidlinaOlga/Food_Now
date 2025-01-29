@@ -25,6 +25,7 @@ public class DeleteProductPositiveTest extends TestBase {
     public void deleteProductTest() {
 
         app.getCart().clickOnCartIcon();
+        app.getHome().pause(6000);
         app.getCart().waitAndClickOnDeleteIcon();
         app.getHome().pause(6000);
 

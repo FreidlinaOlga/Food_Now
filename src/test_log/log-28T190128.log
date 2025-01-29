@@ -1,0 +1,43 @@
+19:01:29.495 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+19:01:32.857 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@578524c3]
+19:01:44.476 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:01:44.476 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:01:44.478 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:01:44.478 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@273c947f]
+19:01:55.771 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:01:55.771 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:01:55.771 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:01:55.773 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@1f12e153]
+19:02:07.097 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:02:07.097 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:02:07.097 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:02:07.098 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@4cdd2c73]
+19:02:18.393 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:02:18.393 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:02:18.393 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:02:18.395 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@bb9ab64]
+19:02:29.681 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:02:29.681 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:02:29.681 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:02:29.686 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@7b78ed6a]
+19:02:41.019 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:02:41.019 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:02:41.019 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:02:41.020 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@608bc8f8]
+19:02:52.307 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:02:52.307 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:02:52.307 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:02:52.307 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@7cbeac65]
+19:03:03.607 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:03:03.607 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:03:03.607 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:03:03.607 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@216e9ca3]
+19:03:14.898 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:03:14.899 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:03:14.899 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:03:14.900 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidPhoneNegativeWithCsvFileTest[com.foodnow.models.User@77c10a5f]
+19:03:26.285 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidPhoneNegativeWithCsvFileTest
+19:03:26.285 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:03:26.285 [main] INFO  com.foodnow.tests.TestBase -- --------------

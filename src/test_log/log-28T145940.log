@@ -1,0 +1,28 @@
+14:59:41.364 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+14:59:46.808 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserNegativeFromDataProviderWithCsvFileTest[com.foodnow.models.User@2f3c6ac4]
+15:00:07.628 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserNegativeFromDataProviderWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738072807590png
+15:00:07.628 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+15:00:07.628 [main] INFO  com.foodnow.tests.TestBase -- --------------
+15:00:07.628 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserNegativeFromDataProviderWithCsvFileTest[com.foodnow.models.User@79f227a9]
+15:00:28.050 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserNegativeFromDataProviderWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738072828050png
+15:00:28.050 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+15:00:28.050 [main] INFO  com.foodnow.tests.TestBase -- --------------
+15:00:28.050 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserNegativeFromDataProviderWithCsvFileTest[com.foodnow.models.User@1556f2dd]
+15:00:48.444 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserNegativeFromDataProviderWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738072848444png
+15:00:48.444 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+15:00:48.444 [main] INFO  com.foodnow.tests.TestBase -- --------------
+15:00:48.444 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserNegativeFromDataProviderWithCsvFileTest[com.foodnow.models.User@251ebf23]
+15:01:08.834 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserNegativeFromDataProviderWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738072868834png
+15:01:08.834 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+15:01:08.834 [main] INFO  com.foodnow.tests.TestBase -- --------------
+15:01:08.834 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserNegativeFromDataProviderWithCsvFileTest[com.foodnow.models.User@3c1e23ff]
+15:01:29.228 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserNegativeFromDataProviderWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738072889228png
+15:01:29.228 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+15:01:29.228 [main] INFO  com.foodnow.tests.TestBase -- --------------
+15:01:29.231 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserNegativeFromDataProviderWithCsvFileTest[com.foodnow.models.User@1d8e2eea]
+15:01:49.678 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserNegativeFromDataProviderWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738072909678png
+15:01:49.678 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+15:01:49.678 [main] INFO  com.foodnow.tests.TestBase -- --------------
+15:01:49.678 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserNegativeFromDataProviderWithCsvFileTest[com.foodnow.models.User@537b32ef]

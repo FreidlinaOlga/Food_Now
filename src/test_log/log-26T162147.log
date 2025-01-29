@@ -1,0 +1,7 @@
+16:21:47.915 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+16:21:52.078 [main] INFO  com.foodnow.tests.TestBase -- Start test emptyEmailFieldRegistrationNegativeTest[]
+16:22:03.830 [main] INFO  com.foodnow.tests.TestBase -- PASSED: emptyEmailFieldRegistrationNegativeTest
+16:22:03.830 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+16:22:03.830 [main] INFO  com.foodnow.tests.TestBase -- --------------

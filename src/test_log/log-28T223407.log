@@ -1,0 +1,43 @@
+22:34:07.924 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+22:34:11.221 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@740abb5]
+22:34:22.960 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:34:22.960 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:34:22.960 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:34:22.960 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@6650813a]
+22:34:34.312 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:34:34.312 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:34:34.312 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:34:34.312 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@5a4c638d]
+22:34:45.605 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:34:45.605 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:34:45.605 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:34:45.606 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@3e850122]
+22:34:56.950 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:34:56.950 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:34:56.950 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:34:56.950 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@79b08632]
+22:35:08.292 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:35:08.292 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:35:08.292 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:35:08.292 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@213bd3d5]
+22:35:19.639 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:35:19.639 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:35:19.639 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:35:19.647 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@2e51d054]
+22:35:30.961 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:35:30.961 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:35:30.961 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:35:30.963 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@467b684d]
+22:35:42.282 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:35:42.282 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:35:42.282 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:35:42.282 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@a4b5ce3]
+22:35:53.574 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:35:53.574 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:35:53.574 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:35:53.578 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@3bec5821]
+22:36:04.869 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:36:04.869 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:36:04.869 [main] INFO  com.foodnow.tests.TestBase -- --------------

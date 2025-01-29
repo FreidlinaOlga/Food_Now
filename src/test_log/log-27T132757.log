@@ -1,0 +1,7 @@
+13:27:58.112 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+13:28:02.327 [main] INFO  com.foodnow.tests.TestBase -- Start test usingEmptyCartByLoggedUserTest[]
+13:28:23.715 [main] ERROR com.foodnow.tests.TestBase -- FAILED: usingEmptyCartByLoggedUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737980903694png
+13:28:23.715 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+13:28:23.715 [main] INFO  com.foodnow.tests.TestBase -- --------------

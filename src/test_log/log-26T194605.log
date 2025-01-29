@@ -1,0 +1,24 @@
+19:46:11.500 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test homePageTest[]
+19:46:11.613 [Test worker] INFO  com.foodnow.tests.TestBase -- PASSED: homePageTest
+19:46:11.613 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+19:46:11.613 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------
+19:46:11.613 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test loginPositiveTest[]
+19:46:22.866 [Test worker] INFO  com.foodnow.tests.TestBase -- PASSED: loginPositiveTest
+19:46:22.866 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+19:46:22.867 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------
+19:46:22.869 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test categoryViewingByRegisteredUserTest[]
+19:46:29.001 [Test worker] INFO  com.foodnow.tests.TestBase -- PASSED: categoryViewingByRegisteredUserTest
+19:46:29.001 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+19:46:29.001 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------
+19:46:29.001 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test categoryViewingByUnregisteredUserTest[]
+19:46:41.162 [Test worker] INFO  com.foodnow.tests.TestBase -- PASSED: categoryViewingByUnregisteredUserTest
+19:46:41.162 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+19:46:41.162 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------
+19:46:41.162 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test productViewingByRegisteredUserTest[]
+19:47:01.578 [Test worker] ERROR com.foodnow.tests.TestBase -- FAILED: productViewingByRegisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737917221550png
+19:47:01.578 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+19:47:01.578 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------
+19:47:01.583 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test productViewingByUnregisteredUserTest[]
+19:47:01.924 [Test worker] INFO  com.foodnow.tests.TestBase -- PASSED: productViewingByUnregisteredUserTest
+19:47:01.924 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+19:47:01.924 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------

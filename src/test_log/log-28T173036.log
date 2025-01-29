@@ -1,0 +1,43 @@
+17:30:37.677 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+17:30:42.707 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@5db99216]
+17:30:54.493 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidLastNameNegativeWithCsvFileTest
+17:30:54.493 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:30:54.493 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:30:54.493 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@25230246]
+17:31:05.904 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidLastNameNegativeWithCsvFileTest
+17:31:05.905 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:31:05.905 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:31:05.907 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@3e6f3bae]
+17:31:27.530 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidLastNameNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738081887500png
+17:31:27.530 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:31:27.530 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:31:27.530 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@522ba524]
+17:31:49.084 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidLastNameNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738081909079png
+17:31:49.084 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:31:49.085 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:31:49.086 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@681adc8f]
+17:32:10.699 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidLastNameNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738081930696png
+17:32:10.699 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:32:10.699 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:32:10.705 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@41ffaeb8]
+17:32:22.059 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidLastNameNegativeWithCsvFileTest
+17:32:22.060 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:32:22.060 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:32:22.062 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@d0865a3]
+17:32:43.640 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidLastNameNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738081963640png
+17:32:43.640 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:32:43.640 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:32:43.640 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@5d2828c9]
+17:32:55.023 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidLastNameNegativeWithCsvFileTest
+17:32:55.023 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:32:55.023 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:32:55.023 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@169268a7]
+17:33:16.561 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidLastNameNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738081996560png
+17:33:16.561 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:33:16.561 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:33:16.563 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidLastNameNegativeWithCsvFileTest[com.foodnow.models.User@4fe533ff]
+17:33:38.044 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidLastNameNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738082018044png
+17:33:38.044 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:33:38.044 [main] INFO  com.foodnow.tests.TestBase -- --------------

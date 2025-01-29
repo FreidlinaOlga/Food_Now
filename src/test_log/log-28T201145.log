@@ -1,0 +1,83 @@
+20:11:45.873 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+20:11:49.423 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@758f4f03]
+20:12:01.272 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:12:01.272 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:12:01.272 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:12:01.274 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@12365c88]
+20:12:12.599 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:12:12.599 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:12:12.599 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:12:12.599 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@6d64b553]
+20:12:23.858 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:12:23.858 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:12:23.858 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:12:23.858 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@78c1a023]
+20:12:35.126 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:12:35.129 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:12:35.129 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:12:35.129 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@3b05a99b]
+20:12:46.478 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:12:46.479 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:12:46.479 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:12:46.481 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@6fa69af7]
+20:12:57.793 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:12:57.795 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:12:57.795 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:12:57.795 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@2f66f0d0]
+20:13:09.084 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:13:09.087 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:13:09.087 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:13:09.089 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@2e66bc32]
+20:13:20.388 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:13:20.388 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:13:20.388 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:13:20.388 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@257e0827]
+20:13:31.660 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:13:31.660 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:13:31.660 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:13:31.662 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@3166f664]
+20:13:53.258 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidNameNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738091633231png
+20:13:53.260 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:13:53.260 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:13:53.262 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@999b951]
+20:14:04.544 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:14:04.544 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:14:04.544 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:14:04.545 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@29fe4840]
+20:14:15.828 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:14:15.828 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:14:15.828 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:14:15.828 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@7b5cc918]
+20:14:27.133 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:14:27.133 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:14:27.133 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:14:27.133 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@53eba4b8]
+20:14:38.292 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:14:38.298 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:14:38.298 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:14:38.298 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@370c9018]
+20:14:49.609 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:14:49.609 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:14:49.609 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:14:49.619 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@1c6a0103]
+20:15:00.997 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:15:00.999 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:15:00.999 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:15:00.999 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@2a484710]
+20:15:12.398 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:15:12.398 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:15:12.398 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:15:12.398 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@ad0bb4e]
+20:15:23.760 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:15:23.760 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:15:23.760 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:15:23.762 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@21090c88]
+20:15:35.038 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:15:35.048 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:15:35.048 [main] INFO  com.foodnow.tests.TestBase -- --------------
+20:15:35.051 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidNameNegativeWithCsvFileTest[com.foodnow.models.User@5dae5a70]
+20:15:46.353 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidNameNegativeWithCsvFileTest
+20:15:46.353 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+20:15:46.353 [main] INFO  com.foodnow.tests.TestBase -- --------------

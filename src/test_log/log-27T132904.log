@@ -1,0 +1,7 @@
+13:29:04.784 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+13:29:08.834 [main] INFO  com.foodnow.tests.TestBase -- Start test existedUserRegistrationNegativeTest[]
+13:29:20.641 [main] INFO  com.foodnow.tests.TestBase -- PASSED: existedUserRegistrationNegativeTest
+13:29:20.642 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+13:29:20.642 [main] INFO  com.foodnow.tests.TestBase -- --------------

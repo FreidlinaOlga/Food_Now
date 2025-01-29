@@ -17,14 +17,46 @@ public class RegisterNewUserWithCsvNegativeTests extends TestBase{
         app.getUser().clickOnRegisterLink();
     }
 
-    @Test(dataProvider = "registerNewUserWithCsv", dataProviderClass = DataProviders.class)
-    public void registerNewUserNegativeFromDataProviderWithCsvFileTest(User user) {
+    @Test(dataProvider = "registerNewUserNegativeEmailWithCsv", dataProviderClass = DataProviders.class)
+    public void registerNewUserInvalidEmailNegativeWithCsvFileTest(User user) {
 
         app.getUser().fillLoginRegisterForm(user);
         app.getUser().clickOnRegistrationButton();
 
-        Assert.assertTrue(app.getUser().isUserRegistered());
+        Assert.assertTrue(app.getUser().isEmailWrong());
 
     }
+
+
+    @Test(dataProvider = "registerNewUserNegativeLastNameWithCsv", dataProviderClass = DataProviders.class)
+    public void registerNewUserInvalidLastNameNegativeWithCsvFileTest(User user) {
+
+        app.getUser().fillLoginRegisterForm(user);
+        app.getUser().clickOnRegistrationButton();
+
+        Assert.assertTrue(app.getUser().isLastNameInvalid());
+
+    }
+
+    @Test(dataProvider = "registerNewUserNegativeNameWithCsv", dataProviderClass = DataProviders.class)
+    public void registerNewUserInvalidNameNegativeWithCsvFileTest(User user) {
+
+        app.getUser().fillLoginRegisterForm(user);
+        app.getUser().clickOnRegistrationButton();
+
+        Assert.assertTrue(app.getUser().isNameInValid());
+
+    }
+    @Test(dataProvider = "registerNewUserNegativePhoneWithCsv", dataProviderClass = DataProviders.class)
+    public void registerNewUserInvalidPhoneNegativeWithCsvFileTest(User user) {
+
+        app.getUser().fillLoginRegisterForm(user);
+        app.getUser().clickOnRegistrationButton();
+
+        Assert.assertTrue(app.getUser().isPhoneInValid());
+
+    }
+
+
 
 }

@@ -52,4 +52,20 @@ public class UserHelper extends BaseHelper{
 
     public boolean isUserRegistered() { return isElementPresent(By.cssSelector("img[src*=\"profile-yJ8L7J31\"]"));
     }
+
+    public boolean isEmailWrong() {
+        return isElementPresent(By.xpath("//div[text()='Email is not valid']"));
+    }
+
+    public boolean isLastNameInvalid() {
+        return isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]"));
+    }
+
+    public boolean isNameInValid() {
+        return isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]"));
+    }
+
+    public boolean isPhoneInValid() {
+        return isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]"));
+    }
 }

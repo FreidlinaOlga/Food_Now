@@ -1,0 +1,27 @@
+19:09:22.682 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\QA\Food_Now\src\test\resources\testFN.xml
+
+19:09:26.956 [main] INFO  com.foodnow.tests.TestBase -- Start test homePageTest[]
+19:09:27.030 [main] INFO  com.foodnow.tests.TestBase -- PASSED: homePageTest
+19:09:27.030 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:09:27.030 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:09:27.048 [main] INFO  com.foodnow.tests.TestBase -- Start test loginPositiveTest[]
+19:09:38.504 [main] INFO  com.foodnow.tests.TestBase -- PASSED: loginPositiveTest
+19:09:38.505 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:09:38.506 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:09:38.508 [main] INFO  com.foodnow.tests.TestBase -- Start test categoryViewingByRegisteredUserTest[]
+19:09:48.825 [main] ERROR com.foodnow.tests.TestBase -- FAILED: categoryViewingByRegisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737914988795png
+19:09:48.825 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:09:48.825 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:09:48.825 [main] INFO  com.foodnow.tests.TestBase -- Start test categoryViewingByUnregisteredUserTest[]
+19:09:58.981 [main] ERROR com.foodnow.tests.TestBase -- FAILED: categoryViewingByUnregisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737914998981png
+19:09:58.981 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:09:58.981 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:09:58.981 [main] INFO  com.foodnow.tests.TestBase -- Start test productViewingByRegisteredUserTest[]
+19:10:09.230 [main] ERROR com.foodnow.tests.TestBase -- FAILED: productViewingByRegisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737915009226png
+19:10:09.230 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:10:09.230 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:10:09.232 [main] INFO  com.foodnow.tests.TestBase -- Start test productViewingByUnregisteredUserTest[]
+19:10:19.406 [main] ERROR com.foodnow.tests.TestBase -- FAILED: productViewingByUnregisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737915019406png
+19:10:19.406 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:10:19.406 [main] INFO  com.foodnow.tests.TestBase -- --------------

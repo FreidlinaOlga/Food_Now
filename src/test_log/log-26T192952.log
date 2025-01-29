@@ -1,0 +1,7 @@
+19:29:53.430 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+19:29:57.371 [main] INFO  com.foodnow.tests.TestBase -- Start test categoryViewingByUnregisteredUserTest[]
+19:30:08.064 [main] ERROR com.foodnow.tests.TestBase -- FAILED: categoryViewingByUnregisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737916208048png
+19:30:08.064 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:30:08.064 [main] INFO  com.foodnow.tests.TestBase -- --------------

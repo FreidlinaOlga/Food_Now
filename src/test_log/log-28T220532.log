@@ -1,0 +1,52 @@
+22:05:32.575 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+22:05:37.289 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@4152d38d]
+22:05:58.862 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098358832png
+22:05:58.862 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:05:58.862 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:05:58.862 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@5eefa415]
+22:06:20.361 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098380361png
+22:06:20.361 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:06:20.361 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:06:20.361 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@7b44b63d]
+22:06:41.863 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098401863png
+22:06:41.863 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:06:41.863 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:06:41.866 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@73ab3aac]
+22:07:03.305 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098423305png
+22:07:03.305 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:07:03.305 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:07:03.305 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@31133b6e]
+22:07:24.761 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098444757png
+22:07:24.761 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:07:24.761 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:07:24.761 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@71d8cfe7]
+22:07:46.345 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098466345png
+22:07:46.345 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:07:46.345 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:07:46.348 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@17c2d509]
+22:08:07.781 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098487781png
+22:08:07.781 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:08:07.781 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:08:07.781 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@671d1157]
+22:08:29.210 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098509205png
+22:08:29.210 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:08:29.210 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:08:29.212 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@24d61e4]
+22:08:50.592 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098530587png
+22:08:50.592 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:08:50.592 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:08:50.592 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@2a39aa2b]
+22:09:12.172 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738098552172png
+22:09:12.172 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:09:12.172 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:09:12.172 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@4b0bd001]
+22:09:23.321 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:09:23.321 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:09:23.321 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:09:23.324 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@32120956]
+22:09:34.451 [main] INFO  com.foodnow.tests.TestBase -- PASSED: registerNewUserInvalidEmailNegativeWithCsvFileTest
+22:09:34.455 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+22:09:34.455 [main] INFO  com.foodnow.tests.TestBase -- --------------
+22:09:34.455 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@317890ea]

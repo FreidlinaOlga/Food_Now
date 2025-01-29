@@ -1,0 +1,8 @@
+17:18:42.150 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+17:18:46.729 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@6e57e95e]
+17:19:09.346 [main] ERROR com.foodnow.tests.TestBase -- FAILED: registerNewUserInvalidEmailNegativeWithCsvFileTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1738081149311png
+17:19:09.346 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+17:19:09.346 [main] INFO  com.foodnow.tests.TestBase -- --------------
+17:19:09.346 [main] INFO  com.foodnow.tests.TestBase -- Start test registerNewUserInvalidEmailNegativeWithCsvFileTest[com.foodnow.models.User@3359c978]

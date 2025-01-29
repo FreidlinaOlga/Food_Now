@@ -1,0 +1,11 @@
+21:43:32.610 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:43:38.711 [main] INFO  com.foodnow.tests.TestBase -- Start test usingCartByUnloggedUserTest[]
+21:43:49.220 [main] INFO  com.foodnow.tests.TestBase -- PASSED: usingCartByUnloggedUserTest
+21:43:49.222 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+21:43:49.222 [main] INFO  com.foodnow.tests.TestBase -- --------------
+21:43:49.227 [main] INFO  com.foodnow.tests.TestBase -- Start test usingEmptyCartByLoggedUserTest[]
+21:44:15.788 [main] ERROR com.foodnow.tests.TestBase -- FAILED: usingEmptyCartByLoggedUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737924255751png
+21:44:15.788 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+21:44:15.788 [main] INFO  com.foodnow.tests.TestBase -- --------------

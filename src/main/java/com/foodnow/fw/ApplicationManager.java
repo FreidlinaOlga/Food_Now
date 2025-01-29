@@ -33,7 +33,7 @@ public class ApplicationManager {
                 driver = new EdgeDriver();
 //                logger.info("Test start in Edge browser");
           }
-        driver = new ChromeDriver();
+
         driver.get("https://oyster-app-hck73.ondigitalocean.app/#/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

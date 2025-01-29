@@ -1,0 +1,27 @@
+19:13:52.078 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\QA\Food_Now\src\test\resources\testFN.xml
+
+19:13:56.647 [main] INFO  com.foodnow.tests.TestBase -- Start test homePageTest[]
+19:13:56.705 [main] INFO  com.foodnow.tests.TestBase -- PASSED: homePageTest
+19:13:56.707 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:13:56.707 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:13:56.712 [main] INFO  com.foodnow.tests.TestBase -- Start test loginPositiveTest[]
+19:14:07.864 [main] INFO  com.foodnow.tests.TestBase -- PASSED: loginPositiveTest
+19:14:07.866 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:14:07.868 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:14:07.870 [main] INFO  com.foodnow.tests.TestBase -- Start test categoryViewingByRegisteredUserTest[]
+19:14:12.465 [main] INFO  com.foodnow.tests.TestBase -- PASSED: categoryViewingByRegisteredUserTest
+19:14:12.465 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:14:12.465 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:14:12.465 [main] INFO  com.foodnow.tests.TestBase -- Start test categoryViewingByUnregisteredUserTest[]
+19:14:22.863 [main] ERROR com.foodnow.tests.TestBase -- FAILED: categoryViewingByUnregisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737915262829png
+19:14:22.863 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:14:22.863 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:14:22.863 [main] INFO  com.foodnow.tests.TestBase -- Start test productViewingByRegisteredUserTest[]
+19:14:43.218 [main] ERROR com.foodnow.tests.TestBase -- FAILED: productViewingByRegisteredUserTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737915283218png
+19:14:43.218 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:14:43.218 [main] INFO  com.foodnow.tests.TestBase -- --------------
+19:14:43.218 [main] INFO  com.foodnow.tests.TestBase -- Start test productViewingByUnregisteredUserTest[]
+19:14:43.557 [main] INFO  com.foodnow.tests.TestBase -- PASSED: productViewingByUnregisteredUserTest
+19:14:43.557 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+19:14:43.557 [main] INFO  com.foodnow.tests.TestBase -- --------------

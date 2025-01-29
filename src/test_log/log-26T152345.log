@@ -1,0 +1,4 @@
+15:23:46.088 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+15:23:51.504 [main] INFO  com.foodnow.tests.TestBase -- Start test deleteProductTest[]

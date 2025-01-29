@@ -1,0 +1,7 @@
+15:58:33.240 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+15:58:41.091 [main] INFO  com.foodnow.tests.TestBase -- Start test deleteProductTest[]
+15:59:00.960 [main] ERROR com.foodnow.tests.TestBase -- FAILED: deleteProductTestScreenshot path: C:\QA\Food_Now\screenshots\screen-1737903540927png
+15:59:00.960 [main] INFO  com.foodnow.tests.TestBase -- Stop test
+15:59:00.960 [main] INFO  com.foodnow.tests.TestBase -- --------------

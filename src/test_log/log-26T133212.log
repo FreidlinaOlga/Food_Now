@@ -1,0 +1,5 @@
+13:32:13.566 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\LocalAdmin\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+13:32:19.955 [main] INFO  com.foodnow.tests.TestBase -- Start test 
+13:32:31.490 [main] INFO  com.foodnow.tests.TestBase -- Stop test 
