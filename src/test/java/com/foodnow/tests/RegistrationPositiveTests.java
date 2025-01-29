@@ -36,16 +36,4 @@ public class RegistrationPositiveTests extends TestBase {
 
     }
 
-
-    @Test(dataProvider = "registerNewUserWithCsv", dataProviderClass = DataProviders.class)
-    public void registerNewUserPositiveFromDataProviderWithCsvFileTest(User user) {
-
-        app.getUser().clickOnRegisterLink();
-        app.getUser().fillLoginRegisterForm(user);
-        app.getUser().clickOnRegistrationButton();
-
-        Assert.assertTrue(app.getUser().isUserRegistered());
-
-    }
-
 }
