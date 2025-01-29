@@ -35,5 +35,8 @@ public class RegistrationPositiveTests extends TestBase {
 
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b6b3e413895f9e6874e60a46b9c3ca20903e16f
 }
