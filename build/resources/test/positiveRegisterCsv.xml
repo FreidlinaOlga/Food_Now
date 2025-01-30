@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PosCSV" verbose="1">
+    <test name="PosCSV">
+        <classes>
+            <class name="com.foodnow.tests.RegisterNewUserWithCsvPositiveTests"/>
+        </classes>
+    </test>
+</suite>

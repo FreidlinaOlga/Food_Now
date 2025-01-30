@@ -29,7 +29,7 @@ public class RegistrationPositiveTests extends TestBase {
                 .setEmail(EMAIL)
                 .setPassword(PASSWORD)
                 .setPhone(PHONE));
-        app.getHome().pause(5000);
+//        app.getHome().pause(5000);
         app.getUser().clickOnRegistrationButton();
 app.getHome().pause(7000);
         Assert.assertTrue(app.getUser().isLoginButtonPresent());

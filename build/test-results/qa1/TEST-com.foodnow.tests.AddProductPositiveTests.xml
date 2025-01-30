@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.foodnow.tests.AddProductPositiveTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-30T09:44:09" hostname="DELLSMALL" time="1.156">
+  <properties/>
+  <testcase name="addProductTest" classname="com.foodnow.tests.AddProductPositiveTests" time="1.156"/>
+  <system-out><![CDATA[10:43:58.047 [Test worker] INFO  com.foodnow.tests.TestBase -- Start test addProductTest[]
+10:44:11.136 [Test worker] INFO  com.foodnow.tests.TestBase -- PASSED: addProductTest
+10:44:11.136 [Test worker] INFO  com.foodnow.tests.TestBase -- Stop test
+10:44:11.138 [Test worker] INFO  com.foodnow.tests.TestBase -- --------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
