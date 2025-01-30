@@ -47,7 +47,7 @@ task qa1(type: Test) {
         } else if (suite5) {
             suites 'src/test/resources/negativeRegisterCsv.xml'
         } else if (suite6) {
-            suites 'src/test/resources/positiveRegisterCsv.xml'
+            suites 'src/test/resources/positiveRegisterCsv2.xml'
         }
         if (project.hasProperty('browser')) {
             systemProperty 'browser', "${browser}"
