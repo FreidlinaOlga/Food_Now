@@ -13,13 +13,13 @@ public class RegisterNewUserWithCsvPositiveTests extends TestBase{
         if (app.getUser().isLogOutButtonPresent()) {
             app.getUser().clickLogOutButton();
         }
-        app.getUser().clickOnUserIcon();
-        app.getUser().clickOnRegisterLink();
+
     }
 
     @Test(dataProvider = "registerNewUserPositiveWithCsv", dataProviderClass = DataProviders.class)
     public void registerNewUserPositiveWithCsvFileTest(User user) {
-
+        app.getUser().clickOnUserIcon();
+        app.getUser().clickOnRegisterLink();
         app.getUser().fillLoginRegisterForm(user);
         app.getUser().clickOnRegistrationButton();
         app.getHome().pause(7000);
