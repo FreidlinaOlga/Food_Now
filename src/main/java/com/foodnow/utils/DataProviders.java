@@ -18,7 +18,7 @@ public class DataProviders {
     public Iterator<Object[]> registerNewUserPositiveWithCsv() throws IOException {
         List<Object[]> list = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(new File
-                ("src/test/resources/registrationValid.csv")));
+                ("src/test/resources/registrationValid2.csv")));
         String line = reader.readLine();
         while (line != null) {
             String[] split = line.split(",");
