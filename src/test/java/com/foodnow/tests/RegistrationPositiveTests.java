@@ -19,7 +19,7 @@ public class RegistrationPositiveTests extends TestBase {
     }
 
 
-    @Test(enabled = false)
+    @Test
     public void registrationPositiveTest() {
         app.getUser().clickOnUserIcon();
         app.getUser().clickOnRegisterLink();
@@ -29,9 +29,10 @@ public class RegistrationPositiveTests extends TestBase {
                 .setEmail(EMAIL)
                 .setPassword(PASSWORD)
                 .setPhone(PHONE));
+        app.getHome().pause(5000);
         app.getUser().clickOnRegistrationButton();
-
-        Assert.assertTrue(app.getUser().isLogOutButtonPresent());
+app.getHome().pause(7000);
+        Assert.assertTrue(app.getUser().isLoginButtonPresent());
 
     }
 

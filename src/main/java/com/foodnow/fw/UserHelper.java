@@ -68,4 +68,8 @@ public class UserHelper extends BaseHelper{
     public boolean isPhoneInValid() {
         return isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]"));
     }
+
+    public boolean isLoginButtonPresent() {
+        return isElementPresent(By.xpath("//button[.='Login']"));
+    }
 }

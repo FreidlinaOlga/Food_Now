@@ -23,7 +23,7 @@ public class RegisterNewUserWithCsvPositiveTests extends TestBase{
         app.getUser().fillLoginRegisterForm(user);
         app.getUser().clickOnRegistrationButton();
 
-        Assert.assertTrue(app.getUser().isUserRegistered());
+        Assert.assertTrue(app.getUser().isLoginButtonPresent());
 
     }
 
