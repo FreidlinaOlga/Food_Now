@@ -26,11 +26,11 @@ public class LoginNegativeTests extends TestBase {
 
         app.getUser()
                 .fillLoginRegisterForm(new User()
-                        .setEmail("tl49@gmx.")
+                        .setEmail("tl49@gmx")
                         .setPassword(PASSWORD));
         app.getUser().clickOnLoginButton();
 
-        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[text()='Login or email is invalid. Try again.']")));
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[@class=\"css-j1mlt7\"]")));
     }
 
 
