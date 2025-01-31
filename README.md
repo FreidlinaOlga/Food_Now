@@ -1,0 +1,3 @@
+
+FoodNow is a web application designed for online food ordering. The aim of the project was to thoroughly test the FoodNow application to ensure its reliability and high quality. A test plan was created beforehand, which describes the testing strategy, scope, resources, schedule and success criteria. Test Link was used for test management to help organize test cases, test plans, requirements and test reports. The testing process started with manual testing of functionality. The test automation system included Selenium, Jenkins, Postman, to perform various types of testing including UI, API, and integration testing. In addition, logging and screenshot capture have been introduced to simplify bug tracking and documentation.
+
